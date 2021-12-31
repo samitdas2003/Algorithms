@@ -1,6 +1,6 @@
 public class Searching {
 	
-	// Iterating
+	// Iterating approach
 	public static int binarySearch(int arr[], int x) {
 		int low = 0;
 		int hi = arr.length-1;
@@ -17,7 +17,7 @@ public class Searching {
 		return -1;
 	}
 	
-	// Recursive
+	// Recursive approach
 	public static int binarySearchRecursive(int arr[], int low, int hi, int x) {
 		if(low > hi) {
 			return -1;
